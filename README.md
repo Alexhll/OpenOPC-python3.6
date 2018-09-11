@@ -99,8 +99,11 @@ Please download and install the following packages in order to develop your own 
 11.The authors of this package are:
 
   `Copyright (c) 2008-2012 by Barry Barnreiter (barry_b@users.sourceforge.net)`
+  
    `Copyright (c) 2014 by Anton D. Kachalov (mouse@yandex.ru)`
+   
    `Copyright (c) 2017 by José A. Maita (jose.a.maita@gmail.com)`
+   
    For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
   
   
