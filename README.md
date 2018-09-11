@@ -10,12 +10,11 @@ Make sure these environment variables in your Windows box are set as shown:`
  OPC_GATE_PORT=7766
  OPC_HOST=localhost
  OPC_MODE=dcom
- OPC_SERVER=Hci.TPNServer;HwHsc.OPCServer;opc.deltav.1;AIM.OPC.1;Yokogawa.ExaopcDAEXQ.1;OSI.DA.1;OPC.PHDServerDA.1;Aspen.Infoplus21_DA.1;National Instruments.OPCLabVIEW;RSLinx OPC Server;KEPware.KEPServerEx.V4;Matrikon.OPC.Simulation;Prosys.OPC.Simulation`
+ OPC_SERVER=Hci.TPNServer;HwHsc.OPCServer;opc.deltav.1;AIM.OPC.1;Yokogawa.ExaopcDAEXQ.1;OSI.DA.1;OPC.PHDServerDA.1;Aspen.Infoplus21_DA.1;National Instruments.OPCLabVIEW;RSLinx OPC Server;KEPware.KEPServerEx.V4;Matrikon.OPC.Simulation;Prosys.OPC.Simulation
 
-Please download and install the following packages in order to develop your own Python programs.
+`Please download and install the following packages in order to develop your own Python programs.
 
 1.Python 3.6+
-
  http://www.python.org/download/
  
 2.Python for Windows Extensions (pywin32)
