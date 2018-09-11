@@ -2,9 +2,9 @@
 OpenOPC for python3.6 enviroment
 This porcedure is for OpenOPC functional test,set your localhost as OPC server.
 MatrikonOPC Server for Simulation is recommended,you can download from [here](https://www.matrikonopc.com/downloads/178/index.aspx).
-Make sure these environment variables in your Windows box are set as shown:
+Make sure these environment variables in your Windows box are set as shown:`
 
-`OPC_CLASS=Matrikon.OPC.Automation;Graybox.OPC.DAWrapper;HSCOPC.Automation;RSI.OPCAutomation;OPC.Automation
+ OPC_CLASS=Matrikon.OPC.Automation;Graybox.OPC.DAWrapper;HSCOPC.Automation;RSI.OPCAutomation;OPC.Automation
  OPC_CLIENT=OpenOPC
  OPC_GATE_HOST=127.0.0.1    
  OPC_GATE_PORT=7766
@@ -15,6 +15,7 @@ Make sure these environment variables in your Windows box are set as shown:
 Please download and install the following packages in order to develop your own Python programs.
 
 1.Python 3.6+
+
  http://www.python.org/download/
  
 2.Python for Windows Extensions (pywin32)
