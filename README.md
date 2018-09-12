@@ -26,16 +26,14 @@ Please download and install the following packages in order to develop your own 
   
 
 3. Pyro4
-
    You can do pip install through command line by running :`pip install pyro4`
   
 
 4. Clone or download the repository,extract the compressed file to a folder in your windows box (i.e.`C:\OpenOPC36`).
 
 
-5. Change to lib folder,register the OPC automation wrapper(gbda_aut.dll) by running this in commmand line:
-
-  `C:\OpenOPC36\lib>regsvr32 gbda_aut.dll`
+5. Change to lib folder,register the OPC automation wrapper(gbda_aut.dll) by running this in commmand line:  
+`C:\OpenOPC36\lib>regsvr32 gbda_aut.dll`
   
 
 6. Change to lib folder,copy python36.dll to your python installation folder if the dll is not existed,folder path as:
@@ -52,18 +50,15 @@ Please download and install the following packages in order to develop your own 
 
 8. Install OpenGatewayService
 
-  - Change to src foldre through command line
-  
-   `i.e.``C:\OpenOPC36\src>`
+  - Change to src foldre through command line  
+  `i.e.``C:\OpenOPC36\src>`
    
    
   - :`python OpenOPCService.py install`
   
-  - Wait while the following message is shown
-  
-   `Installing service zzzOpenOPCService`
-   
-    `Service installed`
+  - Wait while the following message is shown  
+  `Installing service zzzOpenOPCService`  
+  `Service installed`
     
     
 9. Start Open Gateway Service
@@ -81,17 +76,17 @@ Please download and install the following packages in order to develop your own 
 
       import OpenOPC
        def readopc():
-         opchost = 'localhost'
-         taglist = ['Random.Int1']
-         opc = OpenOPC.open_client(host = opchost)
-         opc.connect()
-       while True:
-           v = opc.read(taglist)
-           for i in range(len(v)):
-               (name, val, qual, time) = v[i]
-               print('% -15s % -15s % -15s % -15s'% (name, val, qual, time))
+           opchost = 'localhost'
+           taglist = ['Random.Int1']
+           opc = OpenOPC.open_client(host = opchost)
+           opc.connect()
+           while True:
+               v = opc.read(taglist)
+               for i in range(len(v)):
+                   (name, val, qual, time) = v[i]
+                   print('% -15s % -15s % -15s % -15s'% (name, val, qual, time))
        if __name__=='__main__':
-         readopc()
+           readopc()
       
 - using DCOM mode(only win32 platform)
 
@@ -100,9 +95,9 @@ Please download and install the following packages in order to develop your own 
         import OpenOPC
         opc = OpenOPC.client()
         opc.connect("Matrikon.OPC.Simulation.1")
-       while True:
-         data = opc.read('Random.Int1')[0]
-         print(data)
+        while True:
+            data = opc.read('Random.Int1')[0]
+            print(data)
 
 11. The authors of this package are:
 
