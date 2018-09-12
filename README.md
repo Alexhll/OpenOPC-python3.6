@@ -89,16 +89,11 @@ net start SERVICE through command line as below:
             data = opc.read('Random.Int1')[0]
             print(data)
 
-11. The authors of this package are:
-
-  `Copyright (c) 2008-2012 by Barry Barnreiter (barry_b@users.sourceforge.net)`
-  
-   `Copyright (c) 2014 by Anton D. Kachalov (mouse@yandex.ru)`
-   
-   `Copyright (c) 2017 by José A. Maita (jose.a.maita@gmail.com)`
-   
-   
-   For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
+11. The authors of this package are:  
+`Copyright (c) 2008-2012 by Barry Barnreiter (barry_b@users.sourceforge.net)`  
+`Copyright (c) 2014 by Anton D. Kachalov (mouse@yandex.ru)`  
+`Copyright (c) 2017 by José A. Maita (jose.a.maita@gmail.com)`  
+For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
   
   
   
