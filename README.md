@@ -15,42 +15,42 @@ Make sure these environment variables in your Windows box are set as shown:
 Please download and install the following packages in order to develop your own Python programs.
 
 
-1.Python 3.6+
+1. Python 3.6+
 
  http://www.python.org/download/
  
  
-2.Python for Windows Extensions (pywin32)
+2. Python for Windows Extensions (pywin32)
 
   You can do pip install through command line by running :`pip install pywin32`
   
 
-3.Pyro4
+3. Pyro4
 
   You can do pip install through command line by running :`pip install pyro4`
   
 
-4.Clone or download the repository,extract the compressed file to a folder in your windows box (i.e.`C:\OpenOPC36`).
+4. Clone or download the repository,extract the compressed file to a folder in your windows box (i.e.`C:\OpenOPC36`).
 
 
-5.Change to lib folder,register the OPC automation wrapper(gbda_aut.dll) by running this in commmand line:
+5. Change to lib folder,register the OPC automation wrapper(gbda_aut.dll) by running this in commmand line:
 
   `C:\OpenOPC36\lib>regsvr32 gbda_aut.dll`
   
 
-6.Change to lib folder,copy python36.dll to your python installation folder if the dll is not existed,folder path as:
+6. Change to lib folder,copy python36.dll to your python installation folder if the dll is not existed,folder path as:
 
   `Lib->site-packages->win32`
   
   i.e. `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages\win32`
   
 
-7.Change to src folder,copy OpenOPC.py to your python installation folder,folder path as: `Lib->site-packages`
+7. Change to src folder,copy OpenOPC.py to your python installation folder,folder path as: `Lib->site-packages`
 
    i.e. `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages`
    
 
-8.Install OpenGatewayService
+8. Install OpenGatewayService
 
   - Change to src foldre through command line
   
@@ -66,14 +66,14 @@ Please download and install the following packages in order to develop your own 
     `Service installed`
     
     
-9.Start Open Gateway Service
+9. Start Open Gateway Service
 
   net start SERVICE through command line as below:
   
   `C:\OpenOPC36\bin>net start zzzOpenOPCService`
   
   
-10.Functional test
+10. Functional test
 
 - using the OpenOPC Gateway Service mode(both win32 platform and non-windows platform)
 
@@ -104,7 +104,7 @@ Please download and install the following packages in order to develop your own 
       data = opc.read('Random.Int1')[0]
       print(data)
 
-11.The authors of this package are:
+11. The authors of this package are:
 
   `Copyright (c) 2008-2012 by Barry Barnreiter (barry_b@users.sourceforge.net)`
   
