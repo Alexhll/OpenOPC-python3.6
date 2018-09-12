@@ -40,7 +40,7 @@ Please download and install the following packages in order to develop your own 
 
 6. Change to lib folder,copy python36.dll to your python installation folder if the dll is not existed,folder path as:
 
-  `Lib->site-packages->win32`
+   `Lib->site-packages->win32`
   
    `i.e.` `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages\win32`
   
@@ -112,7 +112,8 @@ Please download and install the following packages in order to develop your own 
    
    `Copyright (c) 2017 by José A. Maita (jose.a.maita@gmail.com)`
    
-    For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
+   
+   For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
   
   
   
