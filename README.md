@@ -44,14 +44,14 @@ Please download and install the following packages in order to develop your own 
 
 8.Install OpenGatewayService
 
-  . Change to src foldre through command line
+  -(+*) Change to src foldre through command line
   
    i.e.`C:\OpenOPC36\src>`
    
    
-  . run :`python OpenOPCService.py install`
+  -(+*)  :`python OpenOPCService.py install`
   
-  . Wait while the following message is shown
+  -(+*)  Wait while the following message is shown
   
    `Installing service zzzOpenOPCService`
    
@@ -67,7 +67,7 @@ Please download and install the following packages in order to develop your own 
   
 10.Functional test
 
-. using the OpenOPC Gateway Service mode(both win32 platform and non-windows platform)
+-(+*)  using the OpenOPC Gateway Service mode(both win32 platform and non-windows platform)
 
   client code as below:
   
@@ -85,7 +85,7 @@ Please download and install the following packages in order to develop your own 
     if __name__=='__main__':
       readopc()
       
-. using DCOM mode(only win32 platform)
+-(+*)  using DCOM mode(only win32 platform)
 
   client code as below：
   
