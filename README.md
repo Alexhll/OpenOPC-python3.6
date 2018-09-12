@@ -78,31 +78,31 @@ Please download and install the following packages in order to develop your own 
 - using the OpenOPC Gateway Service mode(both win32 platform and non-windows platform)
 
   client code as below:
-  
-    import OpenOPC
-    def readopc():
-      opchost = 'localhost'
-      taglist = ['Random.Int1']
-      opc = OpenOPC.open_client(host = opchost)
-      opc.connect()
-    while True:
-        v = opc.read(taglist)
-        for i in range(len(v)):
-            (name, val, qual, time) = v[i]
-            print('% -15s % -15s % -15s % -15s'% (name, val, qual, time))
-    if __name__=='__main__':
-      readopc()
+
+      import OpenOPC
+       def readopc():
+         opchost = 'localhost'
+         taglist = ['Random.Int1']
+         opc = OpenOPC.open_client(host = opchost)
+         opc.connect()
+       while True:
+           v = opc.read(taglist)
+           for i in range(len(v)):
+               (name, val, qual, time) = v[i]
+               print('% -15s % -15s % -15s % -15s'% (name, val, qual, time))
+       if __name__=='__main__':
+         readopc()
       
 - using DCOM mode(only win32 platform)
 
-  client code as below：
-  
-    import OpenOPC
-    opc = OpenOPC.client()
-    opc.connect("Matrikon.OPC.Simulation.1")
-    while True:
-      data = opc.read('Random.Int1')[0]
-      print(data)
+      client code as below：
+
+        import OpenOPC
+        opc = OpenOPC.client()
+        opc.connect("Matrikon.OPC.Simulation.1")
+       while True:
+         data = opc.read('Random.Int1')[0]
+         print(data)
 
 11. The authors of this package are:
 
