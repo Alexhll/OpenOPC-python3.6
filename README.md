@@ -17,17 +17,17 @@ Please download and install the following packages in order to develop your own 
 
 1. Python 3.6+
 
- http://www.python.org/download/
+   http://www.python.org/download/
  
  
 2. Python for Windows Extensions (pywin32)
 
-  You can do pip install through command line by running :`pip install pywin32`
+   You can do pip install through command line by running :`pip install pywin32`
   
 
 3. Pyro4
 
-  You can do pip install through command line by running :`pip install pyro4`
+   You can do pip install through command line by running :`pip install pyro4`
   
 
 4. Clone or download the repository,extract the compressed file to a folder in your windows box (i.e.`C:\OpenOPC36`).
@@ -42,19 +42,19 @@ Please download and install the following packages in order to develop your own 
 
   `Lib->site-packages->win32`
   
-  i.e. `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages\win32`
+   `i.e.` `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages\win32`
   
 
 7. Change to src folder,copy OpenOPC.py to your python installation folder,folder path as: `Lib->site-packages`
 
-   i.e. `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages`
+   `i.e.` `C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Lib\site-packages`
    
 
 8. Install OpenGatewayService
 
   - Change to src foldre through command line
   
-   i.e.`C:\OpenOPC36\src>`
+   `i.e.``C:\OpenOPC36\src>`
    
    
   - :`python OpenOPCService.py install`
@@ -68,7 +68,7 @@ Please download and install the following packages in order to develop your own 
     
 9. Start Open Gateway Service
 
-  net start SERVICE through command line as below:
+   net start SERVICE through command line as below:
   
   `C:\OpenOPC36\bin>net start zzzOpenOPCService`
   
@@ -112,7 +112,7 @@ Please download and install the following packages in order to develop your own 
    
    `Copyright (c) 2017 by José A. Maita (jose.a.maita@gmail.com)`
    
-   For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
+    For more details please check Mr.joseamaita's repository about OpenOPC [here](https://github.com/joseamaita/openopc120)
   
   
   
