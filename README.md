@@ -80,7 +80,7 @@ net start SERVICE through command line as below:
       
 - using DCOM mode(only win32 platform)
 
-      client code as below：
+     client code as below：
 
         import OpenOPC
         opc = OpenOPC.client()
