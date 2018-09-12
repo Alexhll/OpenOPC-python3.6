@@ -45,13 +45,14 @@ You can do pip install through command line by running :`pip install pyro4`
 
 8. Install OpenGatewayService  
 - Change to src foldre through command line  
-  `i.e.``C:\OpenOPC36\src>`
+`i.e.``C:\OpenOPC36\src>`
   
-- :`python OpenOPCService.py install`
+- Install OpenOPCService through command line  
+`python OpenOPCService.py install`
 
 - Wait while the following message is shown  
-  `Installing service zzzOpenOPCService`  
-  `Service installed`
+`Installing service zzzOpenOPCService`  
+`Service installed`
     
     
 9. Start Open Gateway Service  
